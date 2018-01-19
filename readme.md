@@ -17,6 +17,17 @@ Explanation
 
 ## 本目录
 
+- [import-库的导入](#import-库的导入)
+
+- [init-初始化](#init-初始化)
+
+- [main-命令分析](#main-命令分析)
+
+- [prune-新建](#prune-新建)
+
+- [output-详细信息](#output-详细信息)
+
+
 ---
 
 ## 命令行 node-prune
@@ -33,7 +44,7 @@ package main // 作为编译-命令-程序的入口
 
 ---
 
-### import-库的导入
+## import-库的导入
 
 代码 1-12
 
@@ -319,7 +330,7 @@ func WithDir(s string) Option {
 		log.Fatalf("error: %s", err)
 	}
 
-```·
+```
 
 >[ 因为 `prune`库 太长，请移步-prune.readme.md](./prune.readme.md)
 
