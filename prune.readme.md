@@ -34,11 +34,56 @@ var options []prune.Option
 
 ---
 
-本目录
+## 本目录
 
-- 
+导入
 
-- [`prune.New(options...)`](#prune-new)
+- [`模块与导入-定义`](#模块与导入-定义)
+
+去掉内容定义
+
+- [`文件去除-定义`](#文件去除-定义)
+
+- [`文件夹去除-定义`](#文件夹去除-定义)
+
+- [`扩展去掉-定义`](#扩展去掉-定义)
+
+类型定义
+
+- [`prune-type`](#prune-type)
+
+新建
+
+- [`prune-New`](#prune-New)
+
+设置
+
+- [`prune-With`](#prune-With)
+
+生命周期
+
+- [`运行-Prune`](#运行-Prune)
+
+- [`Pruner-startN`](#Pruner-startN)
+
+- [`Pruner-stop`](#Pruner-stop)
+
+---
+
+- [`Pruner-prune 检查是否是需要去除的内容`](#Pruner-prune)
+
+- [`其他工具-or-原生函数`](#其他工具-or-原生函数)
+
+- `filepath-Walk`
+
+- `atomic-AddInt64`
+
+- `os-Remove-or-All`
+
+- `dirStats`
+
+- `toMap`
+
 ---
 
 ## 模块与导入-定义
@@ -495,7 +540,7 @@ func (p *Pruner) prune(path string, info os.FileInfo) bool {
 
 ### filepath-Walk
 
-[文档]((https://studygolang.com/static/pkgdoc/pkg/path_filepath.htm#Walk)
+[文档](https://studygolang.com/static/pkgdoc/pkg/path_filepath.htm#Walk)
 
 ### atomic-AddInt64
 
