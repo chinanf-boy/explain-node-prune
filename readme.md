@@ -19,6 +19,8 @@ Explanation
 
 - [import-库的导入](#import-库的导入)
 
+- [go-运行-or-说明](#go-运行-or-说明)
+
 - [init-初始化](#init-初始化)
 
 - [main-命令分析](#main-命令分析)
@@ -63,6 +65,8 @@ import (
 	"github.com/tj/node-prune" // 引入-node-prune-主库
 )
 ```
+
+### go-运行-or-说明
 
 - go 语言在，库与库之间的应用上
 
@@ -372,8 +376,8 @@ func output(name, val string) {
 
 ### apex-log
 
-[apex/log](https://github.com/apex/log)
+[apex/log tj大神的组织公司-apex](https://github.com/apex/log)
 
 ### flag
 
-[flag-中文](https://studygolang.com/pkgdoc)
+[flag-中文 go原生命令解析](https://studygolang.com/pkgdoc)
